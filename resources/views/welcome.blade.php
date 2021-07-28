@@ -1,7 +1,15 @@
-@extends('layouts.app')
-@section('content')
-  <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center">
-    <h1 class="text-light">Vuejs ToDo App</h1>
-    <todo-component class="mt-3"/>
-  </div>
-@endsection
+<!DOCTYPE html>
+<html lang="{{str_replace('_','-' , app()->getLocal())}}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400:600&display=swap">
+    <title>My App</title>
+</head>
+<body>
+    <div id="app">
+
+    </div>
+</body>
+</html>
